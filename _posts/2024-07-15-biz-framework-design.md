@@ -2,6 +2,7 @@
 title: "业务框架设计的考量"
 date: 2024-07-15
 ---
+
 根据实际业务实现为业务服务的框架。
 
 # 目标
@@ -264,7 +265,7 @@ func (d *PipelineManager[T, R]) Do(engineCtx *model.EngineContext[T, R]) error {
 				index = i
 				engineCtx.NextPipelineName = nil
 			} else {
-				return fmt.Errorf("wrong next_pipeline_name {%s}", engineCtx.GetNextPipelineName())
+				return fmt.Errorf("wrong next_pipeline_name:%s", engineCtx.GetNextPipelineName())
 			}
 		} else {
 			index++
