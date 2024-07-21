@@ -7,7 +7,7 @@ title: Welcome to luckywzy blogs
 ## [lab 2B](_posts/2024-07-17-lab-2B.md)
 # 技术学习
 
-
 # 业务设计
+## [缓存最佳实践](_posts/2024-07-21-cache-best-practice.md)
 
 
